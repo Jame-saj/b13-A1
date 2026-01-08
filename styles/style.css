@@ -4,8 +4,8 @@
   margin: 0 ;
   
   padding: 0;
-  /* font-family: "Open Sans", sans-serif; */
- font-family: 'Inter', sans-serif;
+   font-family: "Open Sans", sans-serif; 
+ /* font-family: 'Inter', sans-serif; */
   box-sizing: border-box;
   cursor: pointer;
 }
@@ -30,7 +30,7 @@
   list-style: none;
   font-size: 16px;
   font-weight: 500;
-  color: #0000;
+  color: #FFFFFF;
   margin: 34px ;
 }
 .nav-d .extra-nav a{
@@ -81,7 +81,7 @@
 }
 .hero-details h1
 {
-  padding:16px 295px;
+  padding:16px 0;
   font-size: 72px;
   font-weight: bold;
   color:rgba(255, 255, 255, 1);
