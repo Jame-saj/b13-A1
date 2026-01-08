@@ -1,18 +1,18 @@
 *
 {
-  /* max-width: 1600px; */
+  
   margin: 0 ;
-  /* auto; */
+  
   padding: 0;
   /* font-family: "Open Sans", sans-serif; */
- /* font-family: 'Inter', sans-serif; */
+ font-family: 'Inter', sans-serif;
   box-sizing: border-box;
   cursor: pointer;
 }
-body
+/* body
 {
    font-family: 'Inter', sans-serif;
-}
+} */
 .nav-details
 {
   display: flex;
@@ -59,7 +59,7 @@ body
 .hero-details
 {
   text-align: center;
-  background-image: url("/assets/hero-bg.png");
+  background-image: url("../assets/hero-bg.png");
   background-repeat: no-repeat ;
   /* height: 674px;
   width:1600px; */
