@@ -1,8 +1,17 @@
 *
 {
-  max-width: 1600px;
-  margin: 0 auto;
+  /* max-width: 1600px; */
+  margin: 0 ;
+  /* auto; */
+  padding: 0;
+  /* font-family: "Open Sans", sans-serif; */
+ /* font-family: 'Inter', sans-serif; */
+  box-sizing: border-box;
   cursor: pointer;
+}
+body
+{
+   font-family: 'Inter', sans-serif;
 }
 .nav-details
 {
@@ -66,6 +75,9 @@
   font-weight: 500;
   padding:8px 12px;
   color: rgba(70, 145, 101, 1);
+}
+.hero-details .er-dot .topline:hover{
+  background-color: green;
 }
 .hero-details h1
 {
@@ -169,7 +181,7 @@
  height: 40px;
  width: 40px;
  margin: 14px;
- border-radius: 8px;
+ border-radius: 40%;
 }
  .card-class
 {
@@ -240,4 +252,91 @@
   line-height: 20px;
   text-align: left;
   padding-bottom: 40px;
+}
+.lastly
+{
+  background-color: rgb(247,246,242,1);
+   padding: 80px 40px;
+  margin-right: 120px;
+  margin-left: 120px;
+  text-align: center;
+  margin-bottom: 120px;
+}
+.lastly h1
+{
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  padding-bottom: 16px;
+}
+.lastly p
+{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  padding-bottom: 24px;
+}
+.lastly button
+{
+ text-align: center;
+   font-size: 16px;
+  font-weight: 600;
+  /* line-height: 19px; */
+padding:12px 16px;
+border-radius: 4px;
+color:#FFFFFF;
+background-color: #30B868;
+/* margin-right: 10px; */
+justify-content: center;
+border: none;
+margin-bottom: 32px;
+}
+.lastly button img{
+  height: 20px;
+  width: 20px;
+  padding: 3.43px 2.18px;
+}
+.lastly .last-p
+{
+   font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+.lastly button:hover{
+  background-color:darkgreen;
+}
+.footer-footer
+{
+  display: flex;
+  background-color: rgba(0, 25, 49, 1);
+  width:100%;
+  margin: 0 auto;
+  padding:120px;
+  justify-content: space-between;
+}
+.footer-footer .footer-links img
+{
+  height: 20px;
+  width: 20px;
+margin-right: 16px;
+
+}
+.footer-footer .footer-links p{
+    font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+  color:rgba(255, 255, 255, 1);
+  padding-bottom: 16px;
+}
+.copyright
+{
+   font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color:rgba(250, 250, 250, 1);
+  text-align: center;
+  padding-bottom: 24px;
+ background-color: rgba(0, 25, 49, 1);
+ padding-top: 30px;
+ /* margin: 80px 120px 30px 120px; */
 }
